@@ -1,0 +1,104 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+
+  background-image: url(background.jpeg);
+
+  user-select:none
+}
+
+/* TEMPO */
+
+#time{
+  font-size: 15px;
+  text-align: right;
+  color: #fff;
+  text-align: center;
+
+}
+
+/* DISPLAY */
+
+.display:focus, input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.display{
+  border-radius: 10px;
+  border: 0px #000;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: right;
+  color: #fff;
+  background-color: #353434;
+  width: 346px;
+}
+
+/* BOTÃO */
+
+.calculatorbuttons{
+  padding: 10px 10px 0px 10px;
+  width: 430px;
+  border-radius: 10px;
+  background-color: #161616;
+}
+
+.botao{
+  width: 80px;
+  height: 60px;
+  margin: 10px 10px;
+  background-color: #1d1d1d;
+  color: #fff;
+  border-radius: 20px;
+  border: 0px;
+  margin-bottom: 10px;
+
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.botao:hover{
+  background-color: #3a3a3a;
+  transition: color 0.5s;
+}
+
+.botao2{
+  width: 80px;
+  height: 60px;
+  margin: 10px 10px;
+  border-radius: 20px;
+  border: 0px;
+  background-color: #353535;
+  color: #fff;
+
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.botao2:hover{
+  background-color: rgb(97, 95, 95);
+  transition: color 0.5s;
+}
+
+.botao3{
+  width: 80px;
+  height: 60px;
+  margin: 10px 10px;
+  background-color: #4e4e4e;
+  color: #fff;
+  border-radius: 20px;
+  border: 0px;
+  margin-bottom: 10px;
+
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.botao3:hover{
+  background-color: rgb(151, 150, 150);
+  transition: color 0.5s;
+}
