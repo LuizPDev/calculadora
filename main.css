@@ -6,7 +6,7 @@ body{
 
   background-image: url(background.jpeg);
 
-  user-select:none
+  user-select: none;
 }
 
 /* TEMPO */
@@ -21,12 +21,12 @@ body{
 
 /* DISPLAY */
 
-.display:focus, input:focus {
+#display:focus, input:focus {
   box-shadow: 0 0 0 0;
   outline: 0;
 }
 
-.display{
+#display{
   border-radius: 10px;
   border: 0px #000;
   margin: 10px;

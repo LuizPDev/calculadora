@@ -1,5 +1,6 @@
-function insert(number){
-  display.value +=number
+function insert(character){
+  display.value +=character
+  document.getElementById('AC/C').innerHTML = 'C';
 }
 
 function cleanall(){
@@ -8,10 +9,12 @@ function cleanall(){
 
 function del(){
   display.value = display.value.slice(0, -1)
+  document.getElementById('AC/C').innerHTML = 'AC';
 }
 
-function calculator(){
+function result(){
     display.value = eval(display.value)
+    document.getElementById('AC/C').innerHTML = 'AC';
 }
 
 const time = n => {

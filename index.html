@@ -22,24 +22,20 @@
 
       <!-- Display -->
 
-      <input type="text" name="display" id="display" class="display" placeholder="0">
+      <input type="text" name="display" id="display" placeholder="0">
       
       <!-- Linha 01 -->
 
-      <button class="botao2" onclick="insert('%')">%</button> <!-- % -->
-      <button class="botao2" onclick="cleanall()">CE</button> <!--  -->
-      <button class="botao2" onclick="cleanall()">C</button> <!-- Apagar contas -->
-      <button class="botao2" onclick="del()">⇐</button> <!-- BackSpace -->
-
-      <!-- Linha 02 -->
-
-      <button class="botao2" onclick="insert('FUNÇÃO EM MANUTENÇÃO.')">¹⁄ₓ</button> <!--  -->
       <button class="botao2" onclick="insert('**')">ₓ²</button> <!-- Sobre -->
-      <button class="botao2" onclick="insert('FUNÇÃO EM MANUTENÇÃO.')">²√ₓ</button> <!--  -->
       <button class="botao2" onclick="insert('/')">÷</button> <!-- Divisão -->
-
+      <button class="botao2" id="AC/C" onclick="cleanall()">AC</button> <!--  -->
+      <button class="botao2" onclick="del()">⇐</button> <!-- BackSpace -->
+      
+      <!-- Linha 02 -->
+      
+      
       <!-- Linha 03 -->
-
+      
       <button class="botao" onclick="insert('7')">7</button> <!--  -->
       <button class="botao" onclick="insert('8')">8</button> <!--  -->
       <button class="botao" onclick="insert('9')">9</button> <!--  -->
@@ -51,21 +47,21 @@
       <button class="botao" onclick="insert('5')">5</button> <!--  -->
       <button class="botao" onclick="insert('6')">6</button> <!--  -->
       <button class="botao2" onclick="insert('-')">-</button> <!-- Subtração -->
-
+      
       <!-- Linha 05 -->
-
+      
       <button class="botao" onclick="insert('1')">1</button> <!--  -->
       <button class="botao" onclick="insert('2')">2</button> <!--  -->
       <button class="botao" onclick="insert('3')">3</button> <!--  -->
       <button class="botao2" onclick="insert('+')">+</button> <!-- Soma -->
-
+      
       
       <!-- Linha 06 -->
       
-      <button class="botao" onclick="insert('FUNÇÃO EM MANUTENÇÃO.')">⁺⁄₋</button> <!--  -->
       <button class="botao" onclick="insert('0')">0</button> <!--  -->
       <button class="botao" onclick="insert('.')">,</button> <!--  -->
-      <button class="botao3" onclick="calculator()">=</button> <!-- Calculo -->
+      <button class="botao2" onclick="insert('%')">%</button> <!-- % -->
+      <button class="botao3" onclick="result()">=</button> <!-- Calculo -->
       
     </div>
   </div>
